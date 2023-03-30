@@ -1,22 +1,29 @@
 import 'package:flutter/material.dart';
-
-import 'ui/gameBoard.dart';
+import 'package:flutter/services.dart';
+import 'package:tictactoe/ui/gameBoard.dart';
 
 void main() {
-  runApp(const TicTacToe());
+  SystemChrome.setPreferredOrientations(
+          [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
+      .then((_) => runApp(const TicTacToeGame()));
 }
 
-class TicTacToe extends StatelessWidget {
-  const TicTacToe({super.key});
+class TicTacToeGame extends StatelessWidget {
+  const TicTacToeGame({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'TicTacToe',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
+        dialogTheme: DialogTheme(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20.0),
+          ),
+        ),
       ),
-      home: Board(),
+      home: TicTacToe(),
     );
   }
 }
