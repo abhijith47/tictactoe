@@ -12,7 +12,7 @@ class _TicTacToeState extends State<TicTacToe> {
   String currentPlayer = 'X';
   bool _twoPlayerMode = false;
   bool _checkGameWinner(String player) {
-    // Check rows
+    //rows validate
     for (int gameRow = 0; gameRow < 3; gameRow++) {
       if (_gameState[gameRow][0] == player &&
           _gameState[gameRow][1] == player &&
@@ -21,7 +21,7 @@ class _TicTacToeState extends State<TicTacToe> {
       }
     }
 
-    // Check columns
+    //columns validate
     for (int gamecol = 0; gamecol < 3; gamecol++) {
       if (_gameState[0][gamecol] == player &&
           _gameState[1][gamecol] == player &&
@@ -30,7 +30,7 @@ class _TicTacToeState extends State<TicTacToe> {
       }
     }
 
-    // Check diagonals
+    //diagonals validate
     if (_gameState[0][0] == player &&
         _gameState[1][1] == player &&
         _gameState[2][2] == player) {
@@ -171,19 +171,16 @@ class _TicTacToeState extends State<TicTacToe> {
         } else {
           currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
           if (!_twoPlayerMode && currentPlayer == 'O') {
-            // Make a move for the computer player
             Future.delayed(const Duration(milliseconds: 300), () async {
-              await _makeComputerMove();
+              await _AutomationMove();
             });
-            //   _makeComputerMove();
           }
         }
       });
     }
   }
 
-  _makeComputerMove() {
-    // Get all empty squares
+  _AutomationMove() {
     List<List<int>> emptySquares = [];
     for (int row = 0; row < 3; row++) {
       for (int col = 0; col < 3; col++) {
@@ -198,7 +195,6 @@ class _TicTacToeState extends State<TicTacToe> {
           }
           currentPlayer = 'X';
           setState(() {});
-
           return;
         }
       }
@@ -277,6 +273,7 @@ class _TicTacToeState extends State<TicTacToe> {
             colorOff: Colors.blueAccent,
             iconOn: Icons.person,
             iconOff: Icons.computer,
+
             textSize: 10.0,
             onChanged: (bool state) {
               setState(() {
