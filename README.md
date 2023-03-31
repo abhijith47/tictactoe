@@ -24,14 +24,14 @@ state management : setstate
 release mode : available
 
 # screenshots
+![Alt text](https://drive.google.com/uc?export=view&id=1JXJK_cqYdyaDFo1SEQYoHTKPPF6G2Hww)
+![Alt text](https://drive.google.com/uc?export=view&id=1JWSNu5LB2UFfYbCXoXsDySMNcWHTcjcR)
+![Alt text](https://drive.google.com/uc?export=view&id=1JTw_7gPBhkHS4gitpWR5aPai1H1g5HkO)
+![Alt text](https://drive.google.com/uc?export=view&id=1JQ3KWTr_JKiytkk3sqStP-Y1yC75ni76)
+![Alt text](https://drive.google.com/uc?export=view&id=1JKx38UyegAEvcb6htVMdvTTAs6bj9lQj)
+![Alt text](https://drive.google.com/uc?export=view&id=1JNLt2csKv9Qsz26Ax_yzmWdTuzE3ogYz)
+![Alt text](https://drive.google.com/uc?export=view&id=1JIXBlr-1ZpX1UHePHfZpuA2DHX7F0v_9)
+![Alt text](https://drive.google.com/uc?export=view&id=1JFD2av15w4HdOJSstjH4IIqn2ZtYUpG9)
 
-![Alt text](https://drive.google.com/file/d/1JXJK_cqYdyaDFo1SEQYoHTKPPF6G2Hww/view?usp=sharing "multiplayer ui layout")
-![Alt text](https://drive.google.com/file/d/1JWSNu5LB2UFfYbCXoXsDySMNcWHTcjcR/view?usp=sharing "v/s computer ui layout")
-![Alt text](https://drive.google.com/file/d/1JTw_7gPBhkHS4gitpWR5aPai1H1g5HkO/view?usp=sharing "x won on multiplayer ui layout")
-![Alt text](https://drive.google.com/file/d/1JQ3KWTr_JKiytkk3sqStP-Y1yC75ni76/view?usp=share_link "multiplayer playing ui layout")
-![Alt text](https://drive.google.com/file/d/1JKx38UyegAEvcb6htVMdvTTAs6bj9lQj/view?usp=share_link "multiplayer game tie ui layout")
-![Alt text](https://drive.google.com/file/d/1JNLt2csKv9Qsz26Ax_yzmWdTuzE3ogYz/view?usp=share_link "v/s computer x won ui layout")
-![Alt text](https://drive.google.com/file/d/1JIXBlr-1ZpX1UHePHfZpuA2DHX7F0v_9/view?usp=share_link "v/s computer game tie ui layout")
-![Alt text](https://drive.google.com/file/d/1JFD2av15w4HdOJSstjH4IIqn2ZtYUpG9/view?usp=share_link "game icon in phone")
 
 
