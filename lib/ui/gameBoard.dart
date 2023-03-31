@@ -231,8 +231,18 @@ class _TicTacToeState extends State<TicTacToe> {
                                 child: Text(_gameState[row][col],
                                     style: GoogleFonts.roboto(
                                         color: !_twoPlayerMode
-                                            ? Colors.blueAccent
-                                            : Colors.greenAccent,
+                                            ? _gameState[row][col]
+                                                        .toString()
+                                                        .toLowerCase() ==
+                                                    'x'
+                                                ? Colors.blueAccent
+                                                : Colors.white
+                                            : _gameState[row][col]
+                                                        .toString()
+                                                        .toLowerCase() ==
+                                                    'x'
+                                                ? Colors.greenAccent
+                                                : Colors.white,
                                         fontSize: 60,
                                         fontWeight: FontWeight.bold)),
                               ),

@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:tictactoe/ui/gameBoard.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations(
           [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
       .then((_) => runApp(const TicTacToeGame()));
@@ -14,6 +15,7 @@ class TicTacToeGame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'TicTacToe',
       theme: ThemeData(
         primarySwatch: Colors.grey,
