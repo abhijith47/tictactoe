@@ -1,16 +1,26 @@
 # tictactoe
 
-A new Flutter project.
+Tic tac toe game made with flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+flutter version : 3.3.9
+Dart 2.18.5 • DevTools 2.15.0
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Description
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Its a basic 3x3 tictactoe game
+The game has two modes
+player v/s player : multiplayer mode
+player v/s computer : autoplay mode
+
+In multiplayer mode two personals need to play simultaneosly according to their turn
+In autoplay mode any one player can play the game the opponent will be a computer on the other side
+
+UI and graphics for each mode is different
+winner & game tie situations are well managed
+state management : setstate
+release mode : available
+
+
